@@ -1,10 +1,10 @@
-# 🌍 WorldWise
+# 🌍 TripWise
 
-WorldWise is a travel tracking application built with React. It helps users manage visited cities, explore locations on an interactive map, and keep their travel memories organized.
+TripWise is a travel tracking application built with React. It helps users manage visited cities, explore locations on an interactive map, and keep their travel memories organized.
 
 ## 📁 Project Structure
 
-- **`src/components/`** — Reusable UI components, such as the map, forms, city lists, and country lists.
+- **`src/components/`** — Reusable UI components, including the map, forms, city lists, and country lists.
 - **`src/pages/`** — Main application pages, including the homepage, login, pricing, and application layout.
 - **`src/contexts/`** — Manages and shares city data and authentication state across components.
 - **`src/hooks/`** — Contains reusable logic, such as geolocation and URL coordinate management.
@@ -14,15 +14,15 @@ WorldWise is a travel tracking application built with React. It helps users mana
 ## ⚛️ React Concepts Used
 
 - **Components:** Divide the user interface into small, reusable parts.
-- **Props:** Pass data from one component to another.
-- **State & `useState`:** Store data that can change and update the user interface.
-- **Context API:** Share city data and user information across components without passing props through every level.
-- **`useReducer`:** Manage complex state changes using actions and a reducer function.
+- **Props:** Pass data between components.
+- **State & `useState`:** Store changing data and update the user interface.
+- **Context API:** Share city data and user information across components.
+- **`useReducer`:** Manage state changes using actions and a reducer function.
 - **`useEffect`:** Handle side effects, such as fetching data from an API.
-- **`useCallback`:** Preserve a function reference between renders when necessary.
+- **`useCallback`:** Preserve function references between renders when necessary.
 - **Custom Hooks:** Extract reusable logic, such as geolocation and URL coordinate management.
 - **React Router:** Manage pages, nested routes, URL parameters, and protected routes.
-- **`lazy` & `Suspense`:** Load certain pages on demand and display a fallback UI while they load.
+- **`lazy` & `Suspense`:** Load pages on demand and display fallback UI while they load.
 - **Controlled Components:** Manage form inputs using React state.
 - **`StrictMode`:** Help identify potential problems during development.
 
