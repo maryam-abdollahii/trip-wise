@@ -1,0 +1,35 @@
+.appLayout {
+  display: flex;
+  min-height: 100vh;
+  padding: 2.4rem;
+  overscroll-behavior-y: none;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.footer {
+  position: absolute;
+  bottom: 2.4rem;
+  left: 2.4rem;
+  width: calc(56rem - 10rem);
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .appLayout {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .footer {
+    position: static;
+    width: 100%;
+    padding: 2rem 0;
+    box-sizing: border-box;
+    color: var(--color-dark--2);
+  }
+}

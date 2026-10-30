@@ -1,0 +1,26 @@
+.sideBar {
+  flex-basis: 56rem;
+  flex-shrink: 0;
+  background-color: var(--color-dark--1);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 4rem;
+}
+
+@media (max-width: 768px) {
+  .sideBar {
+    flex-basis: auto;
+    width: 100%;
+    padding: 2rem;
+  }
+  .logo{height: 4rem;
+  position: relative;
+  top: 2rem;}
+}

@@ -1,0 +1,89 @@
+{
+  "cities": [
+    {
+      "cityName": "Barreiro e Lavradio",
+      "country": "Portugal",
+      "countryCode": "pt",
+      "date": "2026-10-15",
+      "notes": "",
+      "position": {
+        "lat": 38.72009084771559,
+        "lng": -9.068183898925783
+      },
+      "id": "900CuPOwXh0"
+    },
+    {
+      "cityName": "Karaj",
+      "country": "Iran",
+      "countryCode": "ir",
+      "date": "2026-10-13",
+      "notes": "",
+      "position": {
+        "lat": 35.808378968670816,
+        "lng": 50.9238624572754
+      },
+      "id": "trREgzhstSs"
+    },
+    {
+      "cityName": "Kamallı",
+      "country": "Azerbaijan",
+      "countryCode": "az",
+      "date": "2025-01-16",
+      "notes": "",
+      "position": {
+        "lat": 39.926776202640454,
+        "lng": 48.27392578125001
+      },
+      "id": "FtAV8XbXq0Q"
+    },
+    {
+      "cityName": "Jezdı",
+      "country": "Kazakhstan",
+      "countryCode": "kz",
+      "date": "2026-10-22",
+      "notes": "",
+      "position": {
+        "lat": 48.05980146764443,
+        "lng": 67.02758789062501
+      },
+      "id": "xuQTmO0rUmo"
+    },
+    {
+      "cityName": "Bussloo",
+      "country": "Netherlands",
+      "countryCode": "nl",
+      "date": "2024-10-22",
+      "notes": "",
+      "position": {
+        "lat": 52.18834689072295,
+        "lng": 6.152343750000001
+      },
+      "id": "mymQcTFo-38"
+    },
+    {
+      "cityName": "Oberhaching",
+      "country": "Germany",
+      "countryCode": "de",
+      "date": "2026-10-14",
+      "notes": "",
+      "position": {
+        "lat": 47.97845299557367,
+        "lng": 11.5576171875
+      },
+      "id": "-2z_xKQpf5k"
+    },
+    {
+      "cityName": "Bad Feilnbach",
+      "country": "Germany",
+      "countryCode": "de",
+      "date": "2026-10-20",
+      "notes": "",
+      "position": {
+        "lat": 47.76540569843391,
+        "lng": 11.998443603515627
+      },
+      "id": "JW_trj0M6Ds"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
